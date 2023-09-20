@@ -1,0 +1,19 @@
+{
+    "name": "imgul/php-design-patterns",
+    "description": "Design Patterns with PHP",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Imgul\\PhpDesignPatterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gul Zaib",
+            "email": "92777653+imgul@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
