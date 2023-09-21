@@ -2,10 +2,8 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Imgul\PhpDesignPatterns\Creational\Builder\Conceptual\BuilderInterface;
+use Imgul\PhpDesignPatterns\Creational\Builder\Conceptual\{Director, ClientCode};
 
-$builder = new BuilderInterface();
+$director = new Director();
 
-$process = $builder->buildPartA();
-
-echo $process;
+new ClientCode($director);
